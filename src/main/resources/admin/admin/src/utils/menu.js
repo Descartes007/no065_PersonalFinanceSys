@@ -1,0 +1,6 @@
+const menu = {
+    list() {
+        return [{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"用户","menuJump":"列表","tableName":"yonghu"}],"menu":"用户管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"账单类型","menuJump":"列表","tableName":"zhangdanleixing"}],"menu":"账单类型管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"管理员","tableName":"users"},{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除","报表"],"menu":"收入账单","menuJump":"列表","tableName":"shouruzhangdan"}],"menu":"收入账单管理"},{"child":[{"buttons":["新增","查看","修改","删除","报表"],"menu":"支出账单","menuJump":"列表","tableName":"zhichuzhangdan"}],"menu":"支出账单管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"理财计划","menuJump":"列表","tableName":"licaijihua"}],"menu":"理财计划管理"},{"child":[{"buttons":["新增","查看","修改","删除","报表"],"menu":"统计分析","menuJump":"列表","tableName":"tongjifenxi"}],"menu":"统计分析管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"备忘录","menuJump":"列表","tableName":"beiwanglu"}],"menu":"备忘录管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"是","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"用户","tableName":"yonghu"}]
+    }
+}
+export default menu;
